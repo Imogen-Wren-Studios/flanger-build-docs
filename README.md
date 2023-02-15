@@ -11,9 +11,11 @@ sockets for the ICs, caps and transistors._ **Check the polarity of diodes and E
 
 ---
 ### NOTES REGARDING BBD CHIP SELECTION
+
 This PCB has been designed to work with MN3207/8 BBDs and MN3102 Clocks. You can mix and match
 between MN3207s and MN3208 chips if desired. MN3208 has a slightly longer delay time so using this in
 parallel with the MN3207 can create a deeper warble.
+
 ---
 
 Before breaking apart the Footswitch Daughterboards, we find it easiest to connect the In, +, - and Out
@@ -53,7 +55,7 @@ Now the offboard wiring can be completed to the In and Out jacks, and the DC Jac
 
 ## Calibration - DO NOT SKIP THIS STEP!
 
-_Once assembled you will need to set the trim pot for the correct operation._
+_Once assembled you will need to set the trim pot for the correct operation._ <br>
 Adjust the 100k TrimPot on the main board until the flanging effect is at its maximum, if you are hearing
 distortion on the wet signal it is likely that this TrimPot needs adjustment.
 
@@ -69,7 +71,7 @@ case of the alpha pots, the 2 large mounting Pads and the pin 2 Pad can be used 
 It is easiest to do this before soldering the board.
 
 ## Schematic
-Please see - LINK for high res PDF
+Please see - [flanger-schematic](https://github.com/Imogen-Wren-Studios/flanger-build-docs/blob/main/flanger-schematic.pdf) for high res PDF
 <img width="1255" alt="image" src="https://user-images.githubusercontent.com/97303986/219211411-5e52ded7-477c-44b4-8c36-12105310cc43.png">
 
 
