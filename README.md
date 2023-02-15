@@ -1,8 +1,80 @@
 # flanger-build-docs
-Build docs for Imogen Wren Studios (Formally PGFX) BBD Analog Flanger
+Build docs for Imogen Wren Studios (Formally PGFX) BBD Dual Mode Analog Flanger
 
 ## PCB Layout
 ![image](https://user-images.githubusercontent.com/97303986/219202178-a9339f74-8108-4576-b86b-af8f09a7280c.png)
+
+
+## Build Notes: Please read entire document before commencing build!
+_We Recommend starting with the smallest components first, the resistors and diodes, before moving onto
+sockets for the ICs, caps and transistors._ **Check the polarity of diodes and Electrolytic caps!**
+
+---
+**NOTES REGARDING BBD CHIP SELECTION------------------------------------------------------------------------------**
+This PCB has been designed to work with MN3207/8 BBDs and MN3102 Clocks. You can mix and match
+between MN3207s and MN3208 chips if desired. MN3208 has a slightly longer delay time so using this in
+parallel with the MN3207 can create a deeper warble.
+---
+
+Before breaking apart the Footswitch Daughterboards, we find it easiest to connect the In, +, - and Out
+with short runs of multi strand cable between the Main Board and the Bypass boards. <br>
+
+This board is a neat true bypass solution, but can be omitted, just follow the labelling on the main board if
+you wish to implement your own bypass circuit. <br>
+
+The other footswitch daughterboard switches in the 2nd BBD delay line to effectively double the intensity
+of the flanging effect. All the connections on this board need to be connected with the pin’s opposite on
+the main board. It is easiest to do this before breaking them apart. The daughterboard can be replaced
+with a SPST toggle switch if a second footswitch is undesired. The switch should connect and break the
+Lsnd and Lrtn on the main board <br>
+
+The Trim pot on the Daughterboards are for LED Brightness. We tend to use between 50-100k but you can omit it
+entirely, just short either of the 2 pins that are already connected together to the 3rd pin. <br>
+
+Once the top side of the board is populated, the Pots can be placed as well as the bypass footswitch, we
+recommend soldering a single pin of each, aligning the PCB in the enclosure and then soldering the rest of
+the pins. This ensures the PCB is fitted neatly and there is no undue stress on any of the connections.
+Before the PCB is mounted in the box, we also find it easiest to solder some long flying leads for the Jacks
+and DC Connections to the Bypass Daughterboard. <br>
+
+The Ji – Jack in, and Jo – Jack out pins, as well as the Ground wires for the jacks, and the Vin and GND to
+the DC Jack should be soldered with multi stranded wire 10-15cm long that can be cut to length once
+installed. <br>
+
+The final components to solder to the board are the indication LEDs, our best practice is to solder the short
+negative pin first, almost flush with the PCB, and leave the other pin unsoldered until it is lined up with the
+hole in the enclosure. We use a 5mm LED bezel, but you can just drill the correct sized hole in the
+enclosure and mount it direct. <br>
+
+Install the board, attach all the hardware and then make sure the LED is sat correctly before soldering the
+final pin. <br>
+
+Now the offboard wiring can be completed to the In and Out jacks, and the DC Jack.  <br><br>
+
+## Calibration - DO NOT SKIP THIS STEP!
+
+_Once assembled you will need to set the trim pot for the correct operation._
+Adjust the 100k TrimPot on the main board until the flanging effect is at its maximum, if you are hearing
+distortion on the wet signal it is likely that this TrimPot needs adjustment.
+
+## Mods
+Some potential for mods are documented on the schematic below. A higher res PDF is available in this repo.
+
+## Notes on Boxing & Drilling
+This PCB is designed for Tall 4S1590BBT / 1590BBT or 1590C Enclosures. You may struggle to find room for
+the jacks in a smaller enclosure.
+
+No Drill template has been provided, but the PCB itself provides centre holes to line up drill marks. In the
+case of the alpha pots, the 2 large mounting Pads and the pin 2 Pad can be used to align the drill marks.
+It is easiest to do this before soldering the board.
+
+## Schematic
+Please see - LINK for high res PDF
+<img width="1255" alt="image" src="https://user-images.githubusercontent.com/97303986/219211411-5e52ded7-477c-44b4-8c36-12105310cc43.png">
+
+
+
+
 
 
 ## BOM
@@ -138,3 +210,7 @@ Build docs for Imogen Wren Studios (Formally PGFX) BBD Analog Flanger
 | Switches          |                                  |                                           |                                              |
 | SW1               |  3PDT                            |  Footswitch Switches:3PDT                 |                                              |
 | SW2               |  3PDT                            |  Footswitch Switches:3PDT                 |                                              |
+
+## Other Products from Imogen Wren Studios
+![image](https://user-images.githubusercontent.com/97303986/219211201-3ce0cbd2-641a-4378-af77-50c6060aa029.png)
+
