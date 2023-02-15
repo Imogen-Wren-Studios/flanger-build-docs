@@ -10,7 +10,7 @@ _We Recommend starting with the smallest components first, the resistors and dio
 sockets for the ICs, caps and transistors._ **Check the polarity of diodes and Electrolytic caps!**
 
 ---
-**NOTES REGARDING BBD CHIP SELECTION------------------------------------------------------------------------------**
+### NOTES REGARDING BBD CHIP SELECTION
 This PCB has been designed to work with MN3207/8 BBDs and MN3102 Clocks. You can mix and match
 between MN3207s and MN3208 chips if desired. MN3208 has a slightly longer delay time so using this in
 parallel with the MN3207 can create a deeper warble.
