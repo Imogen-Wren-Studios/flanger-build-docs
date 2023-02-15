@@ -9,6 +9,7 @@ Build docs for Imogen Wren Studios (Formally PGFX) BBD Analog Flanger
 
 | BOM:              |  Value                           |  Type                                     |    Notes                                     |
 | ----------------- | -------------------------------- | ----------------------------------------- | -------------------------------------------- |
+| ---               | ---                              |  ---                                      |  ---                                         |
 | Resistors         |                                  |                                           |                                              |
 | R1                |  1k                              |  Resistor                                 |                                              |
 | R2                |  10k                             |  Resistor                                 |                                              |
@@ -64,7 +65,7 @@ Build docs for Imogen Wren Studios (Formally PGFX) BBD Analog Flanger
 | Rdry1             |  33k                             |  Resistor                                 |  Dry Signal Level                            |
 | Rfb1              |  1k                              |  Resistor                                 |  Feedback Signal Level                       |
 | Rl1               |  27k                             |  Resistor                                 |  Output Level                                |
-|                   |                                  |                                           |                                              |
+| ---               | ---                              |  ---                                      |  ---                                         |
 | Caps              |                                  |                                           |                                              |
 | C1                |  100n                            |  FilmCapacitor Wima                       |                                              |
 | C2                |  100n                            |  FilmCapacitor Wima                       |                                              |
@@ -86,6 +87,7 @@ Build docs for Imogen Wren Studios (Formally PGFX) BBD Analog Flanger
 | C18               |  10n                             |  FilmCapacitor                            |                                              |
 | C19               |  4p7                             |  FilmCapacitor                            |                                              |
 | C20               |  47p                             |  FilmCapacitor                            |                                              |
+| ---               | ---                              |  ---                                      |  ---                                         |
 | Electrolytic Caps |                                  |                                           |                                              |
 | EC1               |  1u                              |  ElectrolyticCapacitor                    |                                              |
 | EC2               |  10u                             |  ElectrolyticCapacitor                    |                                              |
@@ -99,11 +101,13 @@ Build docs for Imogen Wren Studios (Formally PGFX) BBD Analog Flanger
 | EC10              |  10u                             |  ElectrolyticCapacitor                    |                                              |
 | EC11              |  220u                            |  ElectrolyticCapacitor                    |                                              |
 | EC12              |  100u                            |  ElectrolyticCapacitor                    |                                              |
+| ---               | ---                              |  ---                                      |  ---                                         |
 | Transistors       |                                  |                                           |                                              |
 | Q1                |  2N5087                          |  transistors Small Signal PNP             |                                              |
 | Q2                |  2N5088                          |  transistors Small Signal NPN             |                                              |
 | Q3                |  2N5088                          |  transistors Small Signal NPN             |                                              |
 | Q4                | 2N5088                           |  transistors Small Signal NPN             |                                              |
+| ---               | ---                              |  ---                                      |  ---                                         |
 | ICs               |                                  |                                           |                                              |
 | IC1               | 4558                             |  integrated_circuits                      |  Dual Opamp                                  |
 | IC2               |  MN3207_BBD                      |  integrated_circuits                      |  BBD                                         |
@@ -111,6 +115,7 @@ Build docs for Imogen Wren Studios (Formally PGFX) BBD Analog Flanger
 | IC4               |  4558 integrated_circuits        |  Dual Opamp                               |                                              |
 | IC5               |  MN3102_CLK                      |  integrated_circuits                      |  BBD Clock                                   |
 | IC6               |  TL022                           |  integrated_circuits                      |  Low Power Opamp                             |
+| ---               | ---                              |  ---                                      |  ---                                         |
 | Regulators        |                                  |                                           |                                              |
 | REG1              |  L7805                           |  regulators                               |  +5v Regulator                               |
 | Potentiometers    |                                  |                                           |                                              |
@@ -121,6 +126,7 @@ Build docs for Imogen Wren Studios (Formally PGFX) BBD Analog Flanger
 | Trim1             |  100k                            |  TrimPot BBD Bias Voltage                 |                                              |
 | Trim2             |  LED TrimPot                     |  LED Brightness 50-100k                   |                                              |
 | Trim3             |  LED TrimPot                     |  LED Brightness 50-100k                   |                                              |
+| ---               | ---                              |  ---                                      |  ---                                         |
 | Diodes            |                                  |                                           |                                              |
 | D1                |  LEDA diodes                     |  Diodes:3MM_B                             |                                              |
 | D2                |  1n4148 diodes                   |  Diodes:DO35-3                            |                                              |
