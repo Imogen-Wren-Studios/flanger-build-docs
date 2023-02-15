@@ -134,6 +134,7 @@ Build docs for Imogen Wren Studios (Formally PGFX) BBD Analog Flanger
 | D4                |  LEDA diodes                     |  Diodes:3MM_B                             |                                              |
 | D5                |  1n4148 diodes                   |  Diodes:DO35-3                            |                                              |
 | D6                |  1n4007 diodes                   |  Diodes:DO41-3                            |                                              |
+| ---               | ---                              |  ---                                      |  ---                                         |
 | Switches          |                                  |                                           |                                              |
 | SW1               |  3PDT                            |  Footswitch Switches:3PDT                 |                                              |
 | SW2               |  3PDT                            |  Footswitch Switches:3PDT                 |                                              |
